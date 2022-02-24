@@ -18,7 +18,7 @@ df['Male Height in Meters'] = df['Male Height in Cm'] / 100.00
 df['Female Height in Meters'] = df['Female Height in Cm'] / 100.00
 
 # Sort by male height
-sorted_male = df.sort_values(
+sorted_male = df.sort_values( 
     by='Male Height in Meters',
     ascending=False
 )
@@ -47,25 +47,25 @@ print("***Question 1: What are the top 5 tallest and shortest countries \n" +
       "in the world, for men and women's heights?")
 print()
 # Top 5 male countries
-print("Top 5 countries with highest average male heights")
+print("Top 5 countries with highest average male heights (meters)")
 for i in range(0,5):
     country = top_5_male_countries[i]
     print(str(i + 1) + ". " + country + ": \t" + str(top_5_male_heights[i]))
 print()
 # Top 5 female countries
-print("Top 5 countries with highest average female heights")
+print("Top 5 countries with highest average female heights (meters)")
 for i in range(0,5):
     country = top_5_female_countries[i]
     print(str(i + 1) + ". " + country + ": \t" + str(bottom_5_male_heights[i]))
 print()
 # Bottom 5 male countries
-print("Top 5 countries with lowest average male heights")
+print("Top 5 countries with lowest average male heights (meters)")
 for i in range(0,5):
     country = bottom_5_male_countries[i]
     print(str(i + 1) + ". " + country + ": \t" + str(top_5_female_heights[i]))
 print()
 # Bottom 5 female countries
-print("Top 5 countries with lowest average female heights")
+print("Top 5 countries with lowest average female heights (meters)")
 for i in range(0,5):
     country = bottom_5_female_countries[i]
     print(str(i + 1) + ". " + country + ": \t" + str(bottom_5_female_heights[i]))
