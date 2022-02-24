@@ -26,7 +26,6 @@ I use Python and the Pandas library to build this project.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Kaggle](https://www.kaggle.com/datasets)
 * [Stack overflow](https://stackoverflow.com/)
 
