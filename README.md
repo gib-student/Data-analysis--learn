@@ -1,34 +1,39 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+In this project, I analyze a set of data pertaining to average the average 
+heights of males and females in nearly 200 world countries. I try to 
+answer a couple of questions using Pandas data analysis libraries.
 
-{Provide a description of the data set that you are analyzing.  Include the link of where you obtained the data.}
+I cannot find the precise link of where I found the data, but I got it from kaggle.com.
 
-{Describe your purpose for writing this software to analyze the data.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
+I am doing this project to learn how to analyze data using Pandas and Python.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Data Analysis Results
 
-{List the questions and the answers you found by doing this analysis.}
+Question 1: What are the top 5 countries with the highest average height
+             for males and females, and what are the top 5 countries
+             with the lowest average height for males and females?
+
+Question 2: Which continent has the highest average male height,
+            and which contintent has the highest average female
+            height?
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I use Python and the Pandas library to build this project.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Kaggle](https://www.kaggle.com/datasets)
+* [Stack overflow](https://stackoverflow.com/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Things I can fix, improve, and add in the future:
+* Learn more methods and functions available in Pandas, to make 
+  the data analysis easier and more efficient
+* Use established statistical principles to prove hypotheses
+* Use more complex datasets to challenge myself further
